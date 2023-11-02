@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    font-family: "Open Sans", sans-serif;
+}
+
+html {
+    font-size: 15.9px;
+}
+
+.label {
+    background-color: white;
+    width: 310px;
+    border: 2px solid black;
+    margin: -9px auto;
+    padding: 0 8px;
+}
+
+header h1 {
+   text-align: center;
+   font-size: 36px;
+   text-indent: -12px;
+   margin: -4px 0;
+   letter-spacing: 0.50px;
+}
+
+p {
+    display: flex;
+    margin: -2px 1px 1px;
+    justify-content: space-between;
+}
+.p-font {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.divider {
+    border-bottom: 1px solid black;
+    margin: 2px 0;
+}
+
+.large, .medium {
+    background-color: black;
+    border: 0;
+}
+.large {
+    height: 13px;
+}
+.medium {
+    height: 7px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.small-text {
+    font-size: small;
+}
+.amount-per {
+    margin-bottom: 6px;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.indent {
+    margin-left: 1.2em;
+}
+.double-indent {
+    margin-left: 3em;
+}
+
+.dot {
+    height: 4px;
+    width: 4px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot-center {
+    margin: -3px 0 -3px 20px;
+}
+.vitamin-c {
+    margin-right: 30px;
+}
+.dot-center-1 {
+    margin: -3px 0 -3px 30px;
+}
+.iron {
+    margin-right: 70px;
+}
+
+.note, .calories, .less-then, .size{
+    font-size: 0.75rem;
+}
+.note {
+    margin: 5px 0;
+}
+
+.calories {
+    margin: -8px 26px -2px 0;
+    word-spacing: 25px;
+}
+
+.less-then {
+    margin: 0 36px 0 0;
+    word-spacing: 25px;
+}
+.less-then-ch {
+    margin: 0 20px 0 0;
+    word-spacing: 15px;
+}
+.less-then-so {
+    margin: 0 10px 0 0;
+    word-spacing: 10px;
+}
+.less-then-car {
+    margin: 0 30px 0 0;
+    word-spacing: 20px;
+}
+.less-then-die {
+    margin: 0 36px 0 0;
+    word-spacing: 25px;
+}
+
+.dot-center-1 {
+    margin: -6px 0 0 0; 
+}
+.position {
+    margin-right: 199px;
+}
+.position1 {
+    margin-right: 140px;
+}
+.position2 {
+    margin-right: 175px;
+}
